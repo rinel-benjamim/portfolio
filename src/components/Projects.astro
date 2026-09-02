@@ -1,0 +1,79 @@
+---
+const projects = [
+  {
+    image: '/images/project-1.png',
+    pills: [
+      { text: 'Backend', accent: true },
+      { text: 'Enterprise', accent: false },
+      { text: 'Node.js', accent: false },
+    ],
+    title: 'Apollo Enterprise ERP',
+    description: 'Reestruturação completa de infraestrutura de banco de dados e APIs legadas, resultando em 40% de otimização de consultas e escalabilidade estável.',
+  },
+  {
+    image: '/images/project-2.png',
+    pills: [
+      { text: 'Fullstack', accent: true },
+      { text: 'Freelance', accent: false },
+      { text: 'React', accent: false },
+    ],
+    title: "Portal de Freelancers 'Match'",
+    description: 'Plataforma de ponta a ponta criada do zero para conectar criadores de conteúdo e contratantes locais, com dashboard completo em tempo real.',
+  },
+  {
+    image: '/images/project-3.png',
+    pills: [
+      { text: 'AI Engineering', accent: true },
+      { text: 'Product Strategy', accent: false },
+    ],
+    title: 'Aura AI Agent Orchestrator',
+    description: 'Desenho arquitetural e desenvolvimento de microsserviços integrando LLMs para automação inteligente de tickets de atendimento corporativo.',
+  },
+];
+---
+<section id="projects" class="py-[120px] px-20 bg-dark border-b border-dark-border">
+  <div class="flex flex-col gap-16">
+    <div class="flex flex-col gap-4">
+      <div class="flex items-center gap-3">
+        <span class="text-accent font-mono font-bold text-base">04</span>
+        <span class="w-6 h-[1px] bg-accent"></span>
+        <span class="text-accent font-mono font-semibold text-sm uppercase">Portfólio</span>
+      </div>
+      <h2 class="text-light font-semibold text-[44px] leading-[1.15em] font-[Sora]">Projetos Recentes</h2>
+      <p class="text-muted font-[Sora] text-base leading-[1.6em] max-w-[720px]">
+        Uma seleção de soluções desenvolvidas sob medida, equilibrando robustez técnica com objetivos estratégicos claros.
+      </p>
+    </div>
+    <div class="grid grid-cols-2 gap-6">
+      {projects.map((project) => (
+        <div class="flex flex-col bg-dark-card border border-dark-border rounded-2xl overflow-hidden">
+          <div class="flex flex-col">
+            <div class="h-[220px] overflow-hidden">
+              <img src={project.image} alt={project.title} class="w-full h-full object-cover" />
+            </div>
+            <div class="flex flex-col p-6 gap-4">
+              <div class="flex flex-wrap gap-2">
+                {project.pills.map((pill) => (
+                  <span class:list={[
+                    'px-4 py-1.5 rounded-full text-[10px] font-mono',
+                    pill.accent
+                      ? 'bg-accent-bg border border-accent text-accent'
+                      : 'bg-dark-card border border-dark-border text-muted',
+                  ]}>
+                    {pill.text}
+                  </span>
+                ))}
+              </div>
+              <h3 class="text-light font-semibold text-[22px] font-[Sora]">{project.title}</h3>
+              <p class="text-muted text-sm leading-[1.6em]">{project.description}</p>
+            </div>
+          </div>
+          <div class="flex items-center justify-between px-6 py-6 border-t border-dark-border">
+            <span class="text-accent font-semibold text-sm">Ver Estudo de Caso</span>
+            <img src="/images/chevron-right.svg" alt="" class="w-3.5 h-3.5" />
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

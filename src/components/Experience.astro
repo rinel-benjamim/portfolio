@@ -1,0 +1,53 @@
+---
+const experiences = [
+  {
+    date: '2023 - Presente',
+    role: 'Backend Team Lead & Dev',
+    company: 'Startup SaaS de Logística',
+    description: 'Liderança técnica na arquitetura de microsserviços. Implementação de Spec-Driven Development com IA, reduzindo o tempo de entrega de features críticas de backend em mais de 35%.',
+  },
+  {
+    date: '2021 - 2023',
+    role: 'Project Manager & Product Builder',
+    company: 'Estúdio de Inovação Digital',
+    description: 'Responsável pela ponte de negócios e entrega técnica de 8 produtos digitais do zero. Coordenação direta de equipes multidisciplinares com foco em lançamento ágil.',
+  },
+  {
+    date: '2019 - 2021',
+    role: 'Fullstack Developer Freelancer',
+    company: 'Projetos Independentes & Consultorias',
+    description: 'Desenvolvimento customizado de aplicações complexas para clientes locais e internacionais. Criação de soluções integradas de e-commerce e ferramentas internas de gestão.',
+  },
+];
+---
+<section id="experience" class="py-[120px] px-20 bg-dark border-b border-dark-border">
+  <div class="flex flex-col gap-16">
+    <div class="flex flex-col gap-4">
+      <div class="flex items-center gap-3">
+        <span class="text-accent font-mono font-bold text-xs">05</span>
+        <span class="w-6 h-[1px] bg-accent"></span>
+        <span class="text-accent font-mono font-semibold text-sm uppercase">Experiência</span>
+      </div>
+      <h2 class="text-light font-semibold text-[44px] leading-[1.15em] font-[Sora]">Trajetória Editorial</h2>
+      <p class="text-muted font-[Sora] text-base leading-[1.6em] max-w-[720px]">
+        Foco implacável em posições que fundem autonomia técnica de engenharia com a coordenação de metas de negócios.
+      </p>
+    </div>
+    <div class="flex flex-col gap-6">
+      {experiences.map((exp) => (
+        <div class="flex p-8 items-center gap-12 bg-dark-card border border-dark-border rounded-2xl">
+          <div class="w-[180px] flex-shrink-0">
+            <span class="text-accent font-mono font-semibold text-base">{exp.date}</span>
+          </div>
+          <div class="w-[340px] flex-shrink-0 flex flex-col gap-2">
+            <h3 class="text-light font-semibold text-[22px] font-[Sora]">{exp.role}</h3>
+            <span class="text-muted font-[Sora] text-sm">{exp.company}</span>
+          </div>
+          <div class="flex-1 flex flex-col">
+            <p class="text-muted text-sm leading-[1.6em]">{exp.description}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

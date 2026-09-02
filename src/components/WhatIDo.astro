@@ -1,0 +1,52 @@
+---
+const capabilities = [
+  {
+    icon: '/images/database.svg',
+    title: 'Backend & Fullstack Dev',
+    description: 'Arquitetura robusta de APIs, modelagem de banco de dados estruturada e sistemas escaláveis prontos para produção. Foco em TypeScript, Node.js e soluções cloud-native.',
+  },
+  {
+    icon: '/images/layers.svg',
+    title: 'Project Management',
+    description: 'Metodologias ágeis integradas a entregas reais. Gestão de cronograma, análise de riscos e tradução fluida entre demandas de negócios e tarefas de engenharia.',
+  },
+  {
+    icon: '/images/trending-up.svg',
+    title: 'Product Strategy & Growth',
+    description: 'Desenvolvimento orientado a hipóteses. Mapeamento de MVP, testes de usabilidade, e análise de dados para guiar evolução contínua pós-lançamento.',
+  },
+  {
+    icon: '/images/cpu.svg',
+    title: 'AI-Assisted Development',
+    description: 'Utilização avançada de LLMs sob a filosofia Spec Driven Development para acelerar entregas mantendo a qualidade e rigor arquitetural de código.',
+  },
+];
+---
+<section id="what-i-do" class="py-[120px] px-20 bg-dark border-b border-dark-border">
+  <div class="flex flex-col gap-16">
+    <div class="flex flex-col gap-4">
+      <div class="flex items-center gap-3">
+        <span class="text-accent font-mono font-bold text-base">02</span>
+        <span class="w-6 h-[1px] bg-accent"></span>
+        <span class="text-accent font-mono font-semibold text-sm uppercase">O Que Faço</span>
+      </div>
+      <h2 class="text-light font-semibold text-[44px] leading-[1.15em] font-[Sora]">Capacidades de ponta a ponta</h2>
+      <p class="text-muted font-[Sora] text-base leading-[1.6em] max-w-[720px]">
+        Domínio completo de todas as etapas de criação de um produto digital moderno, combinando rigor técnico com gestão de alta performance.
+      </p>
+    </div>
+    <div class="grid grid-cols-2 gap-6">
+      {capabilities.map((cap) => (
+        <div class="flex flex-col p-8 gap-6 bg-dark-card border border-dark-border rounded-2xl">
+          <div class="w-12 h-12 flex items-center justify-center rounded-full bg-accent-bg">
+            <img src={cap.icon} alt="" class="w-[18px] h-[18px]" />
+          </div>
+          <div class="flex flex-col gap-3">
+            <h3 class="text-light font-semibold text-xl font-[Sora]">{cap.title}</h3>
+            <p class="text-muted text-sm leading-[1.6em]">{cap.description}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
