@@ -1,31 +1,52 @@
 ---
-const roles = ['Product Manager', 'Software Engineer', 'AI Specialist'];
+const roles = ['Product Manager', 'Software Engineer', 'Tech Lead', 'AI Specialist'];
 const stats = [
-  { num: '5+', label: 'Anos exp.' },
-  { num: '30+', label: 'Projetos' },
-  { num: '100%', label: 'Resultados' },
+  { num: '5+', label: 'Anos de experiência' },
+  { num: '30+', label: 'Projetos entregues' },
+  { num: '100%', label: 'Foco em resultados' },
 ];
 ---
-<section id="hero" class="w-full px-5 md:px-16 pt-10 md:pt-20 pb-12 md:pb-24 bg-background flex flex-col gap-6 md:flex-row md:items-start md:justify-between md:gap-16">
-  <!-- Left -->
-  <div class="flex flex-col gap-6 max-w-2xl">
-    <div class="flex items-center gap-2" data-hero-eyebrow>
-      <span class="w-2 h-2 rounded-full inline-block" style="background-color: #22c55e;"></span>
-      <span class="text-xs md:text-sm text-muted-foreground font-medium">Disponível para novos projetos</span>
-    </div>
-
-    <!-- Mobile: name + avatar row -->
-    <div class="flex items-start justify-between gap-4 md:block">
+<section id="hero" class="w-full px-5 md:px-16 pt-20 md:pt-20 pb-12 md:pb-24 bg-background">
+  <div class="flex flex-col md:flex-row md:items-start md:justify-between md:gap-16">
+    <!-- Left -->
+    <div class="flex flex-col gap-6 md:gap-8 max-w-2xl pt-4">
+      <div class="flex items-center gap-2" data-hero-eyebrow>
+        <span class="w-2 h-2 rounded-full inline-block" style="background-color: #22c55e;"></span>
+        <span class="text-xs md:text-sm text-muted-foreground font-medium">Disponível para novos projetos</span>
+      </div>
       <div data-hero-title>
-        <h1 class="font-headings font-bold leading-none text-foreground" style="font-size: clamp(40px, 10vw, 72px); letter-spacing: -2px; line-height: 1;">
+        <h1 class="font-headings font-bold leading-none text-foreground" style="font-size: clamp(40px, 8vw, 72px); letter-spacing: -3px; line-height: 1;">
           Rinel<br />
           <span class="italic font-light">Benjamim</span>
         </h1>
       </div>
-      <div class="w-28 h-28 md:w-96 md:h-96 md:rounded-xl rounded-xl overflow-hidden flex-shrink-0 relative md:self-start self-center" data-hero-photo>
+      <div class="flex flex-wrap gap-2" data-hero-subtitle>
+        {roles.map((tag) => (
+          <span class="text-xs font-medium border border-border rounded-xl px-3 py-1.5 text-muted-foreground bg-muted">{tag}</span>
+        ))}
+      </div>
+      <p class="text-sm md:text-base text-muted-foreground leading-relaxed max-w-lg" data-hero-desc>
+        Construo tecnologia que resolve problemas reais. Especialista em sistemas ERP, plataformas digitais e agentes de IA — do código à estratégia de produto.
+      </p>
+      <div class="flex gap-3 md:gap-4" data-hero-buttons>
+        <a href="#projects" class="flex-1 md:flex-none bg-primary text-primary-foreground text-sm font-medium px-6 py-3 rounded-md text-center hover:opacity-90 transition-opacity">Ver Projetos</a>
+        <a href="#" class="flex-1 md:flex-none border border-border text-foreground text-sm font-medium px-6 py-3 rounded-md text-center bg-card hover:bg-muted transition-colors">Baixar CV</a>
+      </div>
+      <div class="flex gap-6 pt-4 border-t border-border md:border-0 md:pt-2 md:gap-8" data-hero-stats>
+        {stats.map((s) => (
+          <div class="flex flex-col">
+            <span class="font-headings font-bold text-2xl text-foreground">{s.num}</span>
+            <span class="text-xs text-muted-foreground">{s.label}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- Right — Avatar (hidden on mobile, shown on desktop) -->
+    <div class="hidden md:block relative flex-shrink-0" data-hero-photo>
+      <div class="w-96 h-96 rounded-xl overflow-hidden bg-muted relative">
         <img src="/images/hero-photo.png" alt="Rinel Benjamim" class="w-full h-full object-cover object-top" />
-        <!-- floating badge - desktop only -->
-        <div class="hidden md:block absolute bottom-4 left-4 bg-card border border-border rounded-lg px-4 py-3 flex items-center gap-3">
+        <div class="absolute bottom-4 left-4 bg-card border border-border rounded-lg px-4 py-3 flex items-center gap-3">
           <div class="w-9 h-9 rounded-full flex items-center justify-center" style="background-color: var(--color-accent);">
             <img src="/images/code-xml.svg" alt="" class="w-4 h-4" />
           </div>
@@ -35,30 +56,18 @@ const stats = [
           </div>
         </div>
       </div>
+      <div class="absolute -top-6 -right-6 grid grid-cols-5 gap-1.5 opacity-30">
+        {Array.from({length: 25}).map(() => (
+          <div class="w-1.5 h-1.5 rounded-full bg-foreground"></div>
+        ))}
+      </div>
     </div>
 
-    <div class="flex flex-wrap gap-2" data-hero-subtitle>
-      {roles.map((tag) => (
-        <span class="text-xs font-medium border border-border rounded-xl px-3 py-1.5 text-muted-foreground bg-muted">{tag}</span>
-      ))}
-    </div>
-    <p class="text-sm md:text-base text-muted-foreground leading-relaxed max-w-lg" data-hero-desc>
-      Construo tecnologia que resolve problemas reais. Especialista em sistemas ERP, plataformas digitais e agentes de IA — do código à estratégia de produto.
-    </p>
-    <div class="flex gap-3 md:gap-4" data-hero-buttons>
-      <a href="#projects" class="flex-1 md:flex-none bg-primary text-primary-foreground text-sm font-medium px-6 py-3 rounded-md text-center hover:opacity-90 transition-opacity">Ver Projetos</a>
-      <a href="#" class="flex-1 md:flex-none border border-border text-foreground text-sm font-medium px-6 py-3 rounded-md text-center bg-card hover:bg-muted transition-colors">Baixar CV</a>
-    </div>
-    <div class="flex gap-6 pt-4 border-t border-border md:border-0 md:pt-2 md:gap-8" data-hero-stats>
-      {stats.map((s) => (
-        <div class="flex flex-col">
-          <span class="font-headings font-bold text-2xl text-foreground">{s.num}</span>
-          <span class="text-xs text-muted-foreground">{s.label}</span>
-        </div>
-      ))}
+    <!-- Avatar (shown on mobile only) -->
+    <div class="md:hidden relative flex-shrink-0 self-center" data-hero-photo>
+      <div class="w-28 h-28 rounded-xl overflow-hidden bg-muted relative">
+        <img src="/images/hero-photo.png" alt="Rinel Benjamim" class="w-full h-full object-cover object-top" />
+      </div>
     </div>
   </div>
-
-  <!-- Desktop decorative dot grid -->
-  <div class="hidden md:block absolute -top-6 -right-6 grid grid-cols-5 gap-1.5 opacity-30"></div>
 </section>
