@@ -1,0 +1,15 @@
+---
+const skills = [
+  'React', 'Node.js', 'Python', 'PostgreSQL', 'AI/LLM',
+  'Product Strategy', 'Scrum', 'AWS', 'TypeScript', 'Docker',
+];
+---
+<div class="w-full border-y border-border bg-muted py-4 px-16 flex items-center overflow-hidden">
+  <div class="flex items-center gap-10 skills-scroll">
+    {[...skills, ...skills].map((s, i) => (
+      <span key={i} class="text-sm font-medium text-muted-foreground whitespace-nowrap flex items-center gap-2">
+        <span style="color: #888;">&#10022;</span> {s}
+      </span>
+    ))}
+  </div>
+</div>

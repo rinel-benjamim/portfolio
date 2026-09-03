@@ -1,0 +1,66 @@
+---
+const experiences = [
+  {
+    role: 'Tech Lead & Product Manager',
+    company: 'Grupo Apolo',
+    period: '2022 – Presente',
+    description: 'Lidero equipe de 8 engineers na construção de ERP enterprise. Defino roadmap, arquitetura técnica e estratégia de produto. Resultado: +300% ROI, 50+ clientes corporativos.',
+    highlights: ['ERP Full Stack', 'Team Leadership', 'Product Strategy', 'Cloud Architecture'],
+  },
+  {
+    role: 'Senior Software Engineer',
+    company: 'TechAngola',
+    period: '2020 – 2022',
+    description: 'Arquiteto de plataforma SaaS para gestão de projetos. Implementei microserviços, pipelines CI/CD e escalei sistema para 10k+ usuários simultâneos.',
+    highlights: ['Microserviços', 'DevOps', 'Performance Optimization', 'Mentorship'],
+  },
+  {
+    role: 'Full Stack Developer',
+    company: 'StartupXYZ',
+    period: '2019 – 2020',
+    description: 'Desenvolvedor core em plataforma de e-commerce. Contribuí em 15+ features, otimizações de performance e integração com gateways de pagamento.',
+    highlights: ['React', 'Node.js', 'Payment APIs', 'Agile Development'],
+  },
+  {
+    role: 'Junior Developer',
+    company: 'Agency Digital',
+    period: '2018 – 2019',
+    description: 'Início da carreira em desenvolvimento web. Criação de websites responsivos, manutenção de código legacy e primeiras experiências com DevOps.',
+    highlights: ['Web Development', 'Bootstrap', 'Git', 'Team Collaboration'],
+  },
+];
+---
+<section id="experience" class="w-full px-6 md:px-16 py-16 md:py-20 bg-background font-body">
+  <div class="mb-12" data-animate="fade-up">
+    <p class="text-xs font-semibold text-muted-foreground tracking-widest uppercase mb-3">Trajetória</p>
+    <h2 class="font-headings font-bold text-foreground" style="font-size: clamp(28px, 5vw, 40px); letter-spacing: -1.5px; line-height: 1.1;">
+      Experiência Profissional
+    </h2>
+  </div>
+  <div class="space-y-6 max-w-4xl" data-stagger>
+    {experiences.map((exp) => (
+      <div class="flex gap-6 pb-6 border-b border-border last:border-b-0 last:pb-0">
+        <!-- Timeline dot -->
+        <div class="flex flex-col items-center flex-shrink-0 pt-1">
+          <div class="w-4 h-4 rounded-full bg-primary border-4 border-background"></div>
+        </div>
+        <!-- Content -->
+        <div class="flex flex-col gap-3 flex-1">
+          <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-2 md:gap-4">
+            <div>
+              <h3 class="font-headings font-bold text-lg text-foreground">{exp.role}</h3>
+              <p class="text-sm text-muted-foreground font-medium">{exp.company}</p>
+            </div>
+            <span class="text-xs font-semibold text-muted-foreground whitespace-nowrap bg-muted px-3 py-1 rounded-md">{exp.period}</span>
+          </div>
+          <p class="text-sm text-muted-foreground leading-relaxed">{exp.description}</p>
+          <div class="flex flex-wrap gap-2 pt-1">
+            {exp.highlights.map((h) => (
+              <span class="text-xs font-medium px-2.5 py-1 rounded-md text-accent-foreground" style="background-color: var(--color-accent);">{h}</span>
+            ))}
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>

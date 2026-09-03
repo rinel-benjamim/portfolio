@@ -2,28 +2,29 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
 import Hero from '../components/Hero.astro';
-import About from '../components/About.astro';
-import WhatIDo from '../components/WhatIDo.astro';
-import Skills from '../components/Skills.astro';
-import Philosophy from '../components/Philosophy.astro';
-import Projects from '../components/Projects.astro';
-import Experience from '../components/Experience.astro';
-import Currently from '../components/Currently.astro';
-import Interests from '../components/Interests.astro';
-import Testimonials from '../components/Testimonials.astro';
-import Contact from '../components/Contact.astro';
+import SkillsBar from '../components/SkillsBar.astro';
+import CapabilitiesSection from '../components/CapabilitiesSection.astro';
+import ProjectsSection from '../components/ProjectsSection.astro';
+import SkillsDetailedSection from '../components/SkillsDetailedSection.astro';
+import ExperienceTimeline from '../components/ExperienceTimeline.astro';
+import ArticlesSection from '../components/ArticlesSection.astro';
+import TestimonialsSection from '../components/TestimonialsSection.astro';
+import CTASection from '../components/CTASection.astro';
+import PortfolioFooter from '../components/PortfolioFooter.astro';
 ---
 <Layout title="Rinel Benjamim | Portfolio">
   <Navbar />
   <Hero />
-  <About />
-  <WhatIDo />
-  <Skills />
-  <Philosophy />
-  <Projects />
-  <Experience />
-  <Currently />
-  <Interests />
-  <Testimonials />
-  <Contact />
+  <SkillsBar />
+  <CapabilitiesSection />
+  <ProjectsSection />
+  <SkillsDetailedSection />
+  <ExperienceTimeline />
+  <ArticlesSection />
+  <TestimonialsSection />
+  <CTASection />
+  <PortfolioFooter />
+  <script>
+    import '../scripts/animations.js';
+  </script>
 </Layout>

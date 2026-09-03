@@ -1,0 +1,7 @@
+[ 2246552ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://astro.build/api/v1/dev-overlay/:0
+[ 2246558ms] TypeError: Failed to fetch
+    at fetchIntegrationData (http://localhost:4321/node_modules/.vite/deps/astro-C3dVLYN0.js?v=1ae20f8e:81:4)
+    at ToolbarAppEventTarget.<anonymous> (http://localhost:4321/node_modules/.vite/deps/astro-C3dVLYN0.js?v=1ae20f8e:75:27)
+    at AstroDevToolbar.setAppStatus (http://localhost:4321/node_modules/.vite/deps/toolbar-C8Jb8PvT.js?v=1ae20f8e:382:19)
+    at AstroDevToolbar.toggleAppStatus (http://localhost:4321/node_modules/.vite/deps/toolbar-C8Jb8PvT.js?v=1ae20f8e:360:15)
+    at async HTMLButtonElement.<anonymous> (http://localhost:4321/node_modules/.vite/deps/toolbar-C8Jb8PvT.js?v=1ae20f8e:291:5)

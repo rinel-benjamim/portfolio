@@ -1,0 +1,366 @@
+- generic [active] [ref=f9e1]:
+  - navigation [ref=f9e2]:
+    - link "R. BENJAMIM" [ref=f9e3] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=f9e4]: R.
+      - generic [ref=f9e5]: BENJAMIM
+    - generic [ref=f9e6]:
+      - link "Quem Sou" [ref=f9e7] [cursor=pointer]:
+        - /url: "#about"
+      - link "O Que Faço" [ref=f9e8] [cursor=pointer]:
+        - /url: "#what-i-do"
+      - link "Projetos" [ref=f9e9] [cursor=pointer]:
+        - /url: "#skills"
+      - link "Experiência" [ref=f9e10] [cursor=pointer]:
+        - /url: "#experience"
+      - link "Contato" [ref=f9e11] [cursor=pointer]:
+        - /url: "#contact"
+      - link "Vamos Conversar" [ref=f9e12] [cursor=pointer]:
+        - /url: "#contact"
+  - generic [ref=f9e14]:
+    - generic [ref=f9e15]:
+      - generic [ref=f9e16]:
+        - generic [ref=f9e17]:
+          - generic [ref=f9e18]: STARTUP ENTHUSIAST & PRODUCT BUILDER
+          - heading "Rinel Benjamim" [level=1] [ref=f9e21]
+          - paragraph [ref=f9e22]: Fullstack Developer (Backend-leaning) · Project Manager · Product Builder
+        - paragraph [ref=f9e23]: I build software products from absolute zero to launch, aligning strict engineering disciplines with business-driven project management. No hype, just robust systems and human collaboration.
+        - generic [ref=f9e24]:
+          - link "Explorar Projetos" [ref=f9e25] [cursor=pointer]:
+            - /url: "#projects"
+          - link "Baixar Currículo" [ref=f9e26] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=f9e27]:
+        - generic [ref=f9e28]: Disponível para Projetos Globais
+        - generic [ref=f9e32]:
+          - link [ref=f9e33] [cursor=pointer]:
+            - /url: "#"
+            - img "LinkedIn" [ref=f9e34]
+          - link [ref=f9e35] [cursor=pointer]:
+            - /url: "#"
+            - img "GitHub" [ref=f9e36]
+          - link [ref=f9e37] [cursor=pointer]:
+            - /url: "#"
+            - img "X" [ref=f9e38]
+    - img "Rinel Benjamim" [ref=f9e41]
+  - generic [ref=f9e43]:
+    - generic [ref=f9e44]:
+      - generic [ref=f9e45]:
+        - generic [ref=f9e46]: "01"
+        - generic [ref=f9e48]: Quem Sou
+      - heading "Construindo tecnologia orientada a negócios" [level=2] [ref=f9e49]
+    - generic [ref=f9e50]:
+      - generic [ref=f9e51]:
+        - paragraph [ref=f9e52]: Sou impulsionado pelo desafio de transformar ideias abstratas em sistemas funcionais de alto desempenho.
+        - paragraph [ref=f9e53]: Minha jornada une a precisão técnica do desenvolvimento backend com a visão holística de gerenciamento de projetos. Eu não vejo o código como um fim em si mesmo, mas como o motor que viabiliza modelos de negócios viáveis e sustentáveis.
+        - paragraph [ref=f9e54]: Acredito profundamente no valor das relações humanas. Software de sucesso não é construído em isolamento - ele prospera através da escuta ativa, clareza em escopo, metodologias ágeis e, acima de tudo, o respeito pelas pessoas que usam e desenvolvem o produto.
+        - generic [ref=f9e55]:
+          - generic [ref=f9e56]:
+            - generic [ref=f9e57]: PM + DEV
+            - generic [ref=f9e58]: Híbrido de Valor
+          - generic [ref=f9e59]:
+            - generic [ref=f9e60]: 100%
+            - generic [ref=f9e61]: Foco Humano
+      - generic [ref=f9e64]:
+        - generic [ref=f9e65]: Rinel Benjamim
+        - generic [ref=f9e66]: Engenharia orientada a resultados e pragmatismo.
+  - generic [ref=f9e68]:
+    - generic [ref=f9e69]:
+      - generic [ref=f9e70]:
+        - generic [ref=f9e71]: "02"
+        - generic [ref=f9e73]: O Que Faço
+      - heading "Capacidades de ponta a ponta" [level=2] [ref=f9e74]
+      - paragraph [ref=f9e75]: Domínio completo de todas as etapas de criação de um produto digital moderno, combinando rigor técnico com gestão de alta performance.
+    - generic [ref=f9e76]:
+      - generic [ref=f9e79]:
+        - heading "Backend & Fullstack Dev" [level=3] [ref=f9e80]
+        - paragraph [ref=f9e81]: Arquitetura robusta de APIs, modelagem de banco de dados estruturada e sistemas escaláveis prontos para produção. Foco em TypeScript, Node.js e soluções cloud-native.
+      - generic [ref=f9e84]:
+        - heading "Project Management" [level=3] [ref=f9e85]
+        - paragraph [ref=f9e86]: Metodologias ágeis integradas a entregas reais. Gestão de cronograma, análise de riscos e tradução fluida entre demandas de negócios e tarefas de engenharia.
+      - generic [ref=f9e89]:
+        - heading "Product Strategy & Growth" [level=3] [ref=f9e90]
+        - paragraph [ref=f9e91]: Desenvolvimento orientado a hipóteses. Mapeamento de MVP, testes de usabilidade, e análise de dados para guiar evolução contínua pós-lançamento.
+      - generic [ref=f9e94]:
+        - heading "AI-Assisted Development" [level=3] [ref=f9e95]
+        - paragraph [ref=f9e96]: Utilização avançada de LLMs sob a filosofia Spec Driven Development para acelerar entregas mantendo a qualidade e rigor arquitetural de código.
+  - generic [ref=f9e98]:
+    - generic [ref=f9e99]:
+      - generic [ref=f9e100]:
+        - generic [ref=f9e101]:
+          - generic [ref=f9e102]: "05"
+          - generic [ref=f9e104]: Competências
+        - heading "As Minhas Skills" [level=2] [ref=f9e105]
+        - paragraph [ref=f9e106]: Domínio conceitual e prático de arquiteturas modernas. Uma interseção calculada entre desenvolvimento robusto de sistemas e gestão ágil de produtos.
+      - generic [ref=f9e107]:
+        - generic [ref=f9e108]:
+          - generic [ref=f9e109]: Mapeamento Holístico
+          - generic [ref=f9e110]: Índice de Especialidade
+        - generic [ref=f9e111]:
+          - generic [ref=f9e117]:
+            - generic [ref=f9e118]: 90%
+            - generic [ref=f9e119]: Geral
+          - generic [ref=f9e120]:
+            - generic [ref=f9e123]:
+              - generic [ref=f9e124]: Engineering
+              - generic [ref=f9e125]: Frontend, Backend, Cloud
+            - generic [ref=f9e128]:
+              - generic [ref=f9e129]: Product & PM
+              - generic [ref=f9e130]: Agile, MVP, Strategy
+    - generic [ref=f9e131]:
+      - generic [ref=f9e132]:
+        - generic [ref=f9e133]:
+          - generic [ref=f9e134]:
+            - generic [ref=f9e135]: Frontend
+            - generic [ref=f9e138]: CORE
+          - generic [ref=f9e139]:
+            - generic [ref=f9e140]: React
+            - generic [ref=f9e148]: Next.js
+            - generic [ref=f9e156]: TypeScript
+            - generic [ref=f9e164]: Tailwind CSS
+            - generic [ref=f9e172]: HTML/CSS
+        - generic [ref=f9e180]:
+          - generic [ref=f9e181]:
+            - generic [ref=f9e182]: Backend
+            - generic [ref=f9e185]: SCALABLE
+          - generic [ref=f9e186]:
+            - generic [ref=f9e187]:
+              - generic [ref=f9e188]:
+                - generic [ref=f9e189]: 92%
+                - generic [ref=f9e194]: Node.js
+              - generic [ref=f9e195]:
+                - generic [ref=f9e196]: 85%
+                - generic [ref=f9e201]: Python
+            - generic [ref=f9e202]:
+              - generic [ref=f9e203]:
+                - generic [ref=f9e204]: 90%
+                - generic [ref=f9e209]: PostgreSQL
+              - generic [ref=f9e210]:
+                - generic [ref=f9e211]: 80%
+                - generic [ref=f9e216]: MongoDB
+            - generic [ref=f9e217]:
+              - generic [ref=f9e218]:
+                - generic [ref=f9e219]: 95%
+                - generic [ref=f9e224]: REST APIs
+              - generic [ref=f9e225]:
+                - generic [ref=f9e226]: 85%
+                - generic [ref=f9e231]: GraphQL
+      - generic [ref=f9e232]:
+        - generic [ref=f9e233]:
+          - generic [ref=f9e234]:
+            - generic [ref=f9e235]: DevOps & Cloud
+            - generic [ref=f9e238]: PIPELINE
+          - generic [ref=f9e239]:
+            - generic [ref=f9e240]:
+              - generic [ref=f9e241]:
+                - generic [ref=f9e242]: Docker
+                - generic [ref=f9e243]: Active Containerization
+              - generic [ref=f9e244]: 85%
+            - generic [ref=f9e247]:
+              - generic [ref=f9e248]:
+                - generic [ref=f9e249]: AWS
+                - generic [ref=f9e250]: Cloud Native Deployments
+              - generic [ref=f9e251]: 80%
+            - generic [ref=f9e254]:
+              - generic [ref=f9e255]:
+                - generic [ref=f9e256]: CI/CD Platforms
+                - generic [ref=f9e257]: Automated Workflows
+              - generic [ref=f9e258]: 90%
+            - generic [ref=f9e261]:
+              - generic [ref=f9e262]:
+                - generic [ref=f9e263]: Git & Version Control
+                - generic [ref=f9e264]: Strict Spec Management
+              - generic [ref=f9e265]: 95%
+            - generic [ref=f9e268]:
+              - generic [ref=f9e269]:
+                - generic [ref=f9e270]: Linux Administration
+                - generic [ref=f9e271]: Shell Pragmatism
+              - generic [ref=f9e272]: 85%
+        - generic [ref=f9e275]:
+          - generic [ref=f9e276]:
+            - generic [ref=f9e277]: Project Management
+            - generic [ref=f9e280]: DELIVERY
+          - generic [ref=f9e281]:
+            - generic [ref=f9e284]:
+              - generic [ref=f9e285]: Agile / Scrum Mastery
+              - generic [ref=f9e286]: Expert
+            - generic [ref=f9e289]:
+              - generic [ref=f9e290]: Jira / Linear Workspaces
+              - generic [ref=f9e291]: Advanced
+            - generic [ref=f9e294]:
+              - generic [ref=f9e295]: Risk Mitigation & Analysis
+              - generic [ref=f9e296]: Strict
+            - generic [ref=f9e299]:
+              - generic [ref=f9e300]: Stakeholder Communication
+              - generic [ref=f9e301]: Native
+      - generic [ref=f9e302]:
+        - generic [ref=f9e303]:
+          - generic [ref=f9e304]: Product & Strategy
+          - generic [ref=f9e307]: METRICS-DRIVEN
+        - generic [ref=f9e308]:
+          - generic [ref=f9e309]:
+            - generic [ref=f9e310]: User Research
+            - generic [ref=f9e311]: Feedback Loops
+          - generic [ref=f9e314]:
+            - generic [ref=f9e315]: MVP Strategy
+            - generic [ref=f9e316]: Fast Prototyping
+          - generic [ref=f9e319]:
+            - generic [ref=f9e320]: Data-Driven Decisions
+            - generic [ref=f9e321]: Analytics Integration
+          - generic [ref=f9e324]:
+            - generic [ref=f9e325]: A/B Testing
+            - generic [ref=f9e326]: Hypothesis Testing
+  - generic [ref=f9e329]:
+    - generic [ref=f9e330]:
+      - generic [ref=f9e331]:
+        - generic [ref=f9e332]: "03"
+        - generic [ref=f9e334]: Filosofia de Trabalho
+      - heading "Como eu encaro a engenharia de software" [level=2] [ref=f9e335]
+    - generic [ref=f9e336]:
+      - paragraph [ref=f9e337]: "\"Construir com engenharia real. Crescer continuamente. Valorizar pessoas.\""
+      - paragraph [ref=f9e339]: Minha abordagem recusa atalhos fáceis e o hype tecnológico passageiro. Acredito no desenvolvimento orientado a especificações, na documentação impecável e na certeza de que a melhor tecnologia é aquela que gera valor real para o usuário final com o menor custo de manutenção técnica.
+  - generic [ref=f9e341]:
+    - generic [ref=f9e342]:
+      - generic [ref=f9e343]:
+        - generic [ref=f9e344]: "04"
+        - generic [ref=f9e346]: Portfólio
+      - heading "Projetos Recentes" [level=2] [ref=f9e347]
+      - paragraph [ref=f9e348]: Uma seleção de soluções desenvolvidas sob medida, equilibrando robustez técnica com objetivos estratégicos claros.
+    - generic [ref=f9e349]:
+      - generic [ref=f9e350]:
+        - generic [ref=f9e351]:
+          - img "Apollo Enterprise ERP" [ref=f9e353]
+          - generic [ref=f9e354]:
+            - generic [ref=f9e355]:
+              - generic [ref=f9e356]: Backend
+              - generic [ref=f9e357]: Enterprise
+              - generic [ref=f9e358]: Node.js
+            - heading "Apollo Enterprise ERP" [level=3] [ref=f9e359]
+            - paragraph [ref=f9e360]: Reestruturação completa de infraestrutura de banco de dados e APIs legadas, resultando em 40% de otimização de consultas e escalabilidade estável.
+        - generic [ref=f9e361]: Ver Estudo de Caso
+      - generic [ref=f9e363]:
+        - generic [ref=f9e364]:
+          - img "Portal de Freelancers 'Match'" [ref=f9e366]
+          - generic [ref=f9e367]:
+            - generic [ref=f9e368]:
+              - generic [ref=f9e369]: Fullstack
+              - generic [ref=f9e370]: Freelance
+              - generic [ref=f9e371]: React
+            - heading "Portal de Freelancers 'Match'" [level=3] [ref=f9e372]
+            - paragraph [ref=f9e373]: Plataforma de ponta a ponta criada do zero para conectar criadores de conteúdo e contratantes locais, com dashboard completo em tempo real.
+        - generic [ref=f9e374]: Ver Estudo de Caso
+      - generic [ref=f9e376]:
+        - generic [ref=f9e377]:
+          - img "Aura AI Agent Orchestrator" [ref=f9e379]
+          - generic [ref=f9e380]:
+            - generic [ref=f9e381]:
+              - generic [ref=f9e382]: AI Engineering
+              - generic [ref=f9e383]: Product Strategy
+            - heading "Aura AI Agent Orchestrator" [level=3] [ref=f9e384]
+            - paragraph [ref=f9e385]: Desenho arquitetural e desenvolvimento de microsserviços integrando LLMs para automação inteligente de tickets de atendimento corporativo.
+        - generic [ref=f9e386]: Ver Estudo de Caso
+  - generic [ref=f9e389]:
+    - generic [ref=f9e390]:
+      - generic [ref=f9e391]:
+        - generic [ref=f9e392]: "05"
+        - generic [ref=f9e394]: Experiência
+      - heading "Trajetória Editorial" [level=2] [ref=f9e395]
+      - paragraph [ref=f9e396]: Foco implacável em posições que fundem autonomia técnica de engenharia com a coordenação de metas de negócios.
+    - generic [ref=f9e397]:
+      - generic [ref=f9e398]:
+        - generic [ref=f9e399]: 2023 - Presente
+        - generic [ref=f9e400]:
+          - heading "Backend Team Lead & Dev" [level=3] [ref=f9e401]
+          - generic [ref=f9e402]: Startup SaaS de Logística
+        - paragraph [ref=f9e404]: Liderança técnica na arquitetura de microsserviços. Implementação de Spec-Driven Development com IA, reduzindo o tempo de entrega de features críticas de backend em mais de 35%.
+      - generic [ref=f9e405]:
+        - generic [ref=f9e406]: 2021 - 2023
+        - generic [ref=f9e407]:
+          - heading "Project Manager & Product Builder" [level=3] [ref=f9e408]
+          - generic [ref=f9e409]: Estúdio de Inovação Digital
+        - paragraph [ref=f9e411]: Responsável pela ponte de negócios e entrega técnica de 8 produtos digitais do zero. Coordenação direta de equipes multidisciplinares com foco em lançamento ágil.
+      - generic [ref=f9e412]:
+        - generic [ref=f9e413]: 2019 - 2021
+        - generic [ref=f9e414]:
+          - heading "Fullstack Developer Freelancer" [level=3] [ref=f9e415]
+          - generic [ref=f9e416]: Projetos Independentes & Consultorias
+        - paragraph [ref=f9e418]: Desenvolvimento customizado de aplicações complexas para clientes locais e internacionais. Criação de soluções integradas de e-commerce e ferramentas internas de gestão.
+  - generic [ref=f9e420]:
+    - generic [ref=f9e421]:
+      - generic [ref=f9e422]:
+        - generic [ref=f9e423]: "06"
+        - generic [ref=f9e425]: Atualmente
+      - heading "Foco e Crescimento Atual" [level=2] [ref=f9e426]
+    - generic [ref=f9e427]:
+      - generic [ref=f9e428]:
+        - generic [ref=f9e429]: Spec Driven Development para IA
+        - paragraph [ref=f9e432]: Atualmente aprofundando estudos na estruturação de especificações estritas e arquiteturas declarativas para garantir que agentes de inteligência artificial gerem códigos testáveis, seguros e previsíveis. Reduzindo drasticamente as alucinações e maximizando a velocidade.
+      - generic [ref=f9e433]:
+        - generic [ref=f9e434]:
+          - generic [ref=f9e435]: Hábitos Atômicos
+          - generic [ref=f9e436]: James Clear
+        - generic [ref=f9e437]:
+          - generic [ref=f9e438]: Leitura Atual
+          - generic [ref=f9e439]: "\"Hábitos Atômicos\""
+          - paragraph [ref=f9e440]: Buscando melhoria de 1% a cada dia. Acredito que a excelência técnica é fruto de sistemas de hábitos diários consistentes e sustentáveis ao longo do tempo.
+  - generic [ref=f9e441]:
+    - generic [ref=f9e442]:
+      - generic [ref=f9e443]:
+        - generic [ref=f9e444]: "07"
+        - generic [ref=f9e446]: Interesses
+      - heading "Além do Código" [level=2] [ref=f9e447]
+    - generic [ref=f9e448]:
+      - generic [ref=f9e449]: Startup Ecosystem
+      - generic [ref=f9e450]: AI Agents Engineering
+      - generic [ref=f9e451]: Product Building
+      - generic [ref=f9e452]: Personal Development
+      - generic [ref=f9e453]: Business Strategy
+      - generic [ref=f9e454]: Backend Optimization
+      - generic [ref=f9e455]: Clean Architecture
+      - generic [ref=f9e456]: Agile Operations
+  - generic [ref=f9e458]:
+    - generic [ref=f9e459]:
+      - generic [ref=f9e460]:
+        - generic [ref=f9e461]: "08"
+        - generic [ref=f9e463]: Depoimentos
+      - heading "O Que Dizem Parceiros e Clientes" [level=2] [ref=f9e464]
+    - generic [ref=f9e465]:
+      - generic [ref=f9e466]:
+        - paragraph [ref=f9e467]: "\"Rinel possui uma capacidade única de compreender objetivos de negócio complexos e traduzi-los em código limpo, estável e bem arquitetado.\""
+        - generic [ref=f9e468]:
+          - img "Gabriela Mendes" [ref=f9e470]
+          - generic [ref=f9e471]:
+            - generic [ref=f9e472]: Gabriela Mendes
+            - generic [ref=f9e473]: Product Owner na TechCorp
+      - generic [ref=f9e474]:
+        - paragraph [ref=f9e475]: "\"Sua liderança de escopo e visão focada em soluções ágeis foi fundamental para o lançamento bem-sucedido de nossa plataforma piloto em tempo recorde.\""
+        - generic [ref=f9e476]:
+          - img "Felipe Rodrigues" [ref=f9e478]
+          - generic [ref=f9e479]:
+            - generic [ref=f9e480]: Felipe Rodrigues
+            - generic [ref=f9e481]: Fundador da Venturer Co.
+  - contentinfo [ref=f9e482]:
+    - generic [ref=f9e483]:
+      - generic [ref=f9e484]:
+        - generic [ref=f9e485]:
+          - generic [ref=f9e486]:
+            - generic [ref=f9e487]: "09"
+            - generic [ref=f9e489]: Contato
+          - heading "Vamos construir algo extraordinário juntos?" [level=2] [ref=f9e490]
+        - paragraph [ref=f9e491]: Seja para estruturar o MVP da sua nova startup, redesenhar sistemas de backend complexos ou otimizar a sua gestão de produtos ágeis, estou sempre aberto a novos desafios intelectuais.
+      - generic [ref=f9e492]:
+        - generic [ref=f9e493]: Canais Diretos
+        - generic [ref=f9e494]:
+          - generic [ref=f9e495]: rinel@benjamim.dev
+          - generic [ref=f9e498]: linkedin.com/in/rinelbenjamim
+          - generic [ref=f9e501]: github.com/rinelbenjamim
+    - generic [ref=f9e505]:
+      - generic [ref=f9e506]:
+        - generic [ref=f9e507]: R.
+        - generic [ref=f9e508]: © 2025 Rinel Benjamim. Todos os direitos reservados.
+      - generic [ref=f9e509]: Engenharia de Software & Produto
+  - generic [ref=f9e512]:
+    - button [ref=f9e513]
+    - button [ref=f9e519]
+    - button [ref=f9e523]
+    - button [ref=f9e528]
