@@ -1,6 +1,6 @@
 ---
 ---
-<nav class="fixed top-0 left-0 right-0 z-50 w-full flex items-center justify-between px-16 py-6 bg-background border-b border-border transition-all duration-300">
+<nav class="fixed top-0 left-0 right-0 z-50 w-full flex items-center justify-between px-5 md:px-16 py-4 md:py-6 bg-background border-b border-border transition-all duration-300">
   <span class="font-headings font-bold text-base tracking-tight text-foreground">RB<span class="text-accent-foreground px-1 rounded-sm" style="background-color: var(--color-accent);">.</span></span>
   <div class="hidden md:flex items-center gap-10">
     <a href="#hero" class="text-sm text-muted-foreground font-medium hover:text-foreground transition-colors">Início</a>
@@ -9,11 +9,11 @@
     <a href="#skills" class="text-sm text-muted-foreground font-medium hover:text-foreground transition-colors">Skills</a>
     <a href="#contact" class="text-sm text-muted-foreground font-medium hover:text-foreground transition-colors">Contato</a>
   </div>
-  <a href="#contact" class="bg-primary text-primary-foreground text-sm font-medium px-5 py-2.5 rounded-md hover:opacity-90 transition-opacity">Falar comigo</a>
-  <button id="menu-toggle" class="md:hidden flex flex-col gap-1.5 p-2" aria-label="Menu">
+  <a href="#contact" class="hidden md:inline-block bg-primary text-primary-foreground text-sm font-medium px-5 py-2.5 rounded-md hover:opacity-90 transition-opacity">Falar comigo</a>
+  <button id="menu-toggle" class="md:hidden flex flex-col gap-1.5 p-1" aria-label="Menu">
     <span class="w-6 h-0.5 bg-foreground transition-all" id="bar1"></span>
-    <span class="w-6 h-0.5 bg-foreground transition-all" id="bar2"></span>
-    <span class="w-4 h-0.5 bg-foreground transition-all" id="bar3"></span>
+    <span class="w-4 h-0.5 bg-foreground transition-all" id="bar2"></span>
+    <span class="w-6 h-0.5 bg-foreground transition-all" id="bar3"></span>
   </button>
 </nav>
 <div id="mobile-menu" class="fixed inset-0 z-40 bg-background/95 backdrop-blur-sm hidden flex-col items-center justify-center gap-8 md:hidden">
