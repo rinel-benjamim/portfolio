@@ -20,27 +20,27 @@ const experiences = [
   },
 ];
 ---
-<section id="experience" class="py-[120px] px-20 bg-dark border-b border-dark-border">
-  <div class="flex flex-col gap-16">
+<section id="experience" class="py-16 md:py-[120px] px-6 md:px-20 bg-dark border-b border-dark-border">
+  <div class="flex flex-col gap-10 md:gap-16">
     <div class="flex flex-col gap-4">
       <div class="flex items-center gap-3">
         <span class="text-accent font-mono font-bold text-xs">05</span>
         <span class="w-6 h-[1px] bg-accent"></span>
         <span class="text-accent font-mono font-semibold text-sm uppercase">Experiência</span>
       </div>
-      <h2 class="text-light font-semibold text-[44px] leading-[1.15em] font-[Sora]">Trajetória Editorial</h2>
+      <h2 class="text-light font-semibold text-3xl md:text-[44px] leading-[1.15em] font-[Sora]">Trajetória Editorial</h2>
       <p class="text-muted font-[Sora] text-base leading-[1.6em] max-w-[720px]">
         Foco implacável em posições que fundem autonomia técnica de engenharia com a coordenação de metas de negócios.
       </p>
     </div>
-    <div class="flex flex-col gap-6">
+    <div class="flex flex-col gap-4 md:gap-6">
       {experiences.map((exp) => (
-        <div class="flex p-8 items-center gap-12 bg-dark-card border border-dark-border rounded-2xl">
-          <div class="w-[180px] flex-shrink-0">
-            <span class="text-accent font-mono font-semibold text-base">{exp.date}</span>
+        <div class="flex flex-col md:flex-row p-6 md:p-8 items-start md:items-center gap-4 md:gap-12 bg-dark-card border border-dark-border rounded-2xl">
+          <div class="w-full md:w-[180px] flex-shrink-0">
+            <span class="text-accent font-mono font-semibold text-sm md:text-base">{exp.date}</span>
           </div>
-          <div class="w-[340px] flex-shrink-0 flex flex-col gap-2">
-            <h3 class="text-light font-semibold text-[22px] font-[Sora]">{exp.role}</h3>
+          <div class="w-full md:w-[340px] flex-shrink-0 flex flex-col gap-1.5 md:gap-2">
+            <h3 class="text-light font-semibold text-lg md:text-[22px] font-[Sora]">{exp.role}</h3>
             <span class="text-muted font-[Sora] text-sm">{exp.company}</span>
           </div>
           <div class="flex-1 flex flex-col">
