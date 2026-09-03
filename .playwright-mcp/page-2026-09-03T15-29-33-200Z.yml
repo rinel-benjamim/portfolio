@@ -1,0 +1,318 @@
+- generic [active] [ref=f21e1]:
+  - navigation [ref=f21e2]:
+    - generic [ref=f21e3]: RB.
+    - generic [ref=f21e4]:
+      - link "Início" [ref=f21e5] [cursor=pointer]:
+        - /url: "#hero"
+      - link "Experiência" [ref=f21e6] [cursor=pointer]:
+        - /url: "#experience"
+      - link "Projetos" [ref=f21e7] [cursor=pointer]:
+        - /url: "#projects"
+      - link "Skills" [ref=f21e8] [cursor=pointer]:
+        - /url: "#skills"
+      - link "Contato" [ref=f21e9] [cursor=pointer]:
+        - /url: "#contact"
+    - link "Falar comigo" [ref=f21e10] [cursor=pointer]:
+      - /url: "#contact"
+  - generic [ref=f21e12]:
+    - generic [ref=f21e13]:
+      - generic [ref=f21e14]: Disponível para novos projetos
+      - heading "Rinel Benjamim" [level=1] [ref=f21e18]: RinelBenjamim
+      - generic [ref=f21e19]:
+        - generic [ref=f21e20]: Product Manager
+        - generic [ref=f21e21]: Software Engineer
+        - generic [ref=f21e22]: AI Specialist
+      - paragraph [ref=f21e23]: Construo tecnologia que resolve problemas reais. Especialista em sistemas ERP, plataformas digitais e agentes de IA — do código à estratégia de produto.
+      - generic [ref=f21e24]:
+        - link "Ver Projetos" [ref=f21e25] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Baixar CV" [ref=f21e26] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=f21e27]:
+        - generic [ref=f21e28]:
+          - generic [ref=f21e29]: 5+
+          - generic [ref=f21e30]: Anos exp.
+        - generic [ref=f21e31]:
+          - generic [ref=f21e32]: 30+
+          - generic [ref=f21e33]: Projetos
+        - generic [ref=f21e34]:
+          - generic [ref=f21e35]: 100%
+          - generic [ref=f21e36]: Resultados
+    - generic [ref=f21e38]:
+      - img "Rinel Benjamim" [ref=f21e39]
+      - generic [ref=f21e42]:
+        - paragraph [ref=f21e43]: Full Stack
+        - paragraph [ref=f21e44]: PM + DEV + AI
+  - generic [ref=f21e72]:
+    - generic [ref=f21e73]:
+      - generic [ref=f21e74]: ✦
+      - text: React
+    - generic [ref=f21e75]:
+      - generic [ref=f21e76]: ✦
+      - text: Node.js
+    - generic [ref=f21e77]:
+      - generic [ref=f21e78]: ✦
+      - text: Python
+    - generic [ref=f21e79]:
+      - generic [ref=f21e80]: ✦
+      - text: PostgreSQL
+    - generic [ref=f21e81]:
+      - generic [ref=f21e82]: ✦
+      - text: AI/LLM
+    - generic [ref=f21e83]:
+      - generic [ref=f21e84]: ✦
+      - text: Product Strategy
+    - generic [ref=f21e85]:
+      - generic [ref=f21e86]: ✦
+      - text: Scrum
+    - generic [ref=f21e87]:
+      - generic [ref=f21e88]: ✦
+      - text: AWS
+    - generic [ref=f21e89]:
+      - generic [ref=f21e90]: ✦
+      - text: TypeScript
+    - generic [ref=f21e91]:
+      - generic [ref=f21e92]: ✦
+      - text: Docker
+    - generic [ref=f21e93]:
+      - generic [ref=f21e94]: ✦
+      - text: React
+    - generic [ref=f21e95]:
+      - generic [ref=f21e96]: ✦
+      - text: Node.js
+    - generic [ref=f21e97]:
+      - generic [ref=f21e98]: ✦
+      - text: Python
+    - generic [ref=f21e99]:
+      - generic [ref=f21e100]: ✦
+      - text: PostgreSQL
+    - generic [ref=f21e101]:
+      - generic [ref=f21e102]: ✦
+      - text: AI/LLM
+    - generic [ref=f21e103]:
+      - generic [ref=f21e104]: ✦
+      - text: Product Strategy
+    - generic [ref=f21e105]:
+      - generic [ref=f21e106]: ✦
+      - text: Scrum
+    - generic [ref=f21e107]:
+      - generic [ref=f21e108]: ✦
+      - text: AWS
+    - generic [ref=f21e109]:
+      - generic [ref=f21e110]: ✦
+      - text: TypeScript
+    - generic [ref=f21e111]:
+      - generic [ref=f21e112]: ✦
+      - text: Docker
+  - generic [ref=f21e113]:
+    - generic [ref=f21e114]:
+      - paragraph [ref=f21e115]: O que faço
+      - heading "Capacidades de ponta a ponta" [level=2] [ref=f21e116]
+    - generic [ref=f21e117]:
+      - generic [ref=f21e123]:
+        - heading "Backend & FullStack" [level=3] [ref=f21e124]
+        - paragraph [ref=f21e125]: Sistemas robustos com Node.js, Python, PostgreSQL e arquiteturas escaláveis em cloud.
+      - generic [ref=f21e130]:
+        - heading "Project Management" [level=3] [ref=f21e131]
+        - paragraph [ref=f21e132]: Gestão ágil de produtos e equipes com foco em entrega de valor e eficiência operacional.
+      - generic [ref=f21e138]:
+        - heading "Product Strategy & Growth" [level=3] [ref=f21e139]
+        - paragraph [ref=f21e140]: Roadmaps, análise de mercado e estratégias de crescimento orientadas a dados.
+      - generic [ref=f21e146]:
+        - heading "AI-Assisted Development" [level=3] [ref=f21e147]
+        - paragraph [ref=f21e148]: Integração de LLMs, automação inteligente e agentes de IA em produtos e processos.
+  - generic [ref=f21e149]:
+    - generic [ref=f21e150]:
+      - generic [ref=f21e151]:
+        - paragraph [ref=f21e152]: Portfólio
+        - heading "Projetos Recentes" [level=2] [ref=f21e153]
+      - generic [ref=f21e154] [cursor=pointer]: Ver todos
+    - generic [ref=f21e157]:
+      - generic [ref=f21e158]:
+        - generic [ref=f21e159]:
+          - img "Apolo Enterprise ERP" [ref=f21e160]
+          - generic [ref=f21e161]: ERP
+          - generic [ref=f21e162]: Entregue
+        - generic [ref=f21e163]:
+          - generic [ref=f21e164]:
+            - heading "Apolo Enterprise ERP" [level=3] [ref=f21e165]
+            - generic [ref=f21e166]: "2023"
+          - paragraph [ref=f21e167]: Sistema ERP completo com módulos financeiros, RH, logística e BI integrado.
+          - generic [ref=f21e168] [cursor=pointer]: Ver projeto
+      - generic [ref=f21e171]:
+        - generic [ref=f21e172]:
+          - img "Portal do Freelancer \"Yallah\"" [ref=f21e173]
+          - generic [ref=f21e174]: SaaS
+          - generic [ref=f21e175]: Lançado
+        - generic [ref=f21e176]:
+          - generic [ref=f21e177]:
+            - heading "Portal do Freelancer \"Yallah\"" [level=3] [ref=f21e178]
+            - generic [ref=f21e179]: "2024"
+          - paragraph [ref=f21e180]: Marketplace conectando freelancers e clientes no mercado africano com pagamentos integrados.
+          - generic [ref=f21e181] [cursor=pointer]: Ver projeto
+      - generic [ref=f21e184]:
+        - generic [ref=f21e185]:
+          - img "Au-to AI Agent Orquestrador" [ref=f21e186]
+          - generic [ref=f21e187]: AI
+          - generic [ref=f21e188]: Em produção
+        - generic [ref=f21e189]:
+          - generic [ref=f21e190]:
+            - heading "Au-to AI Agent Orquestrador" [level=3] [ref=f21e191]
+            - generic [ref=f21e192]: "2024"
+          - paragraph [ref=f21e193]: Orquestrador de agentes de IA para automação de processos empresariais com LLMs.
+          - generic [ref=f21e194] [cursor=pointer]: Ver projeto
+  - generic [ref=f21e197]:
+    - generic [ref=f21e198]:
+      - paragraph [ref=f21e199]: Expertise
+      - heading "Skills & Tecnologias" [level=2] [ref=f21e200]
+    - generic [ref=f21e201]:
+      - generic [ref=f21e202]:
+        - heading "Backend & FullStack" [level=3] [ref=f21e203]
+        - generic [ref=f21e204]:
+          - generic [ref=f21e205]: Node.js
+          - generic [ref=f21e206]: Python
+          - generic [ref=f21e207]: TypeScript
+          - generic [ref=f21e208]: PostgreSQL
+          - generic [ref=f21e209]: Docker
+          - generic [ref=f21e210]: AWS
+          - generic [ref=f21e211]: Microserviços
+      - generic [ref=f21e212]:
+        - heading "Frontend" [level=3] [ref=f21e213]
+        - generic [ref=f21e214]:
+          - generic [ref=f21e215]: React
+          - generic [ref=f21e216]: Vue.js
+          - generic [ref=f21e217]: Next.js
+          - generic [ref=f21e218]: Tailwind CSS
+          - generic [ref=f21e219]: GraphQL
+          - generic [ref=f21e220]: REST APIs
+      - generic [ref=f21e221]:
+        - heading "AI & Automação" [level=3] [ref=f21e222]
+        - generic [ref=f21e223]:
+          - generic [ref=f21e224]: LLMs/OpenAI
+          - generic [ref=f21e225]: Langchain
+          - generic [ref=f21e226]: RAG
+          - generic [ref=f21e227]: Agentes IA
+          - generic [ref=f21e228]: NLP
+          - generic [ref=f21e229]: Prompt Engineering
+      - generic [ref=f21e230]:
+        - heading "Product & Gestão" [level=3] [ref=f21e231]
+        - generic [ref=f21e232]:
+          - generic [ref=f21e233]: Product Strategy
+          - generic [ref=f21e234]: Roadmap
+          - generic [ref=f21e235]: User Research
+          - generic [ref=f21e236]: OKRs
+          - generic [ref=f21e237]: Scrum/Agile
+  - generic [ref=f21e238]:
+    - generic [ref=f21e239]:
+      - paragraph [ref=f21e240]: Trajetória
+      - heading "Experiência Profissional" [level=2] [ref=f21e241]
+    - generic [ref=f21e242]:
+      - generic [ref=f21e247]:
+        - generic [ref=f21e248]:
+          - generic [ref=f21e249]:
+            - heading "Tech Lead & Product Manager" [level=3] [ref=f21e250]
+            - paragraph [ref=f21e251]: Grupo Apolo
+          - generic [ref=f21e252]: 2022 – Presente
+        - paragraph [ref=f21e253]: "Lidero equipe de 8 engineers na construção de ERP enterprise. Resultado: +300% ROI, 50+ clientes corporativos."
+        - generic [ref=f21e254]:
+          - generic [ref=f21e255]: ERP Full Stack
+          - generic [ref=f21e256]: Team Leadership
+          - generic [ref=f21e257]: Product Strategy
+      - generic [ref=f21e262]:
+        - generic [ref=f21e263]:
+          - generic [ref=f21e264]:
+            - heading "Senior Software Engineer" [level=3] [ref=f21e265]
+            - paragraph [ref=f21e266]: TechAngola
+          - generic [ref=f21e267]: 2020 – 2022
+        - paragraph [ref=f21e268]: Arquiteto de plataforma SaaS. Implementei microserviços e escalei sistema para 10k+ usuários simultâneos.
+        - generic [ref=f21e269]:
+          - generic [ref=f21e270]: Microserviços
+          - generic [ref=f21e271]: DevOps
+          - generic [ref=f21e272]: Performance
+      - generic [ref=f21e276]:
+        - generic [ref=f21e277]:
+          - generic [ref=f21e278]:
+            - heading "Full Stack Developer" [level=3] [ref=f21e279]
+            - paragraph [ref=f21e280]: StartupXYZ
+          - generic [ref=f21e281]: 2019 – 2020
+        - paragraph [ref=f21e282]: Desenvolvedor core em plataforma de e-commerce com integração de gateways de pagamento.
+        - generic [ref=f21e283]:
+          - generic [ref=f21e284]: React
+          - generic [ref=f21e285]: Node.js
+          - generic [ref=f21e286]: Payment APIs
+  - generic [ref=f21e287]:
+    - generic [ref=f21e288]:
+      - paragraph [ref=f21e289]: Pensamentos
+      - heading "Artigos & Insights" [level=2] [ref=f21e290]
+    - generic [ref=f21e291]:
+      - generic [ref=f21e292] [cursor=pointer]:
+        - generic [ref=f21e293]: Architecture
+        - generic [ref=f21e294]:
+          - heading "Como construir ERPs escaláveis em 2024" [level=3] [ref=f21e295]
+          - generic [ref=f21e297]:
+            - generic [ref=f21e298]: 25 Nov, 2024
+            - generic [ref=f21e299]: •
+            - generic [ref=f21e300]: 12 min leitura
+      - generic [ref=f21e303] [cursor=pointer]:
+        - generic [ref=f21e304]: Product Strategy
+        - generic [ref=f21e305]:
+          - heading "O futuro do Product Management em tempos de IA" [level=3] [ref=f21e306]
+          - generic [ref=f21e308]:
+            - generic [ref=f21e309]: 18 Nov, 2024
+            - generic [ref=f21e310]: •
+            - generic [ref=f21e311]: 8 min leitura
+      - generic [ref=f21e314] [cursor=pointer]:
+        - generic [ref=f21e315]: Leadership
+        - generic [ref=f21e316]:
+          - 'heading "Building High-Performance Teams: 5 years of lessons" [level=3] [ref=f21e317]'
+          - generic [ref=f21e319]:
+            - generic [ref=f21e320]: 10 Nov, 2024
+            - generic [ref=f21e321]: •
+            - generic [ref=f21e322]: 15 min leitura
+  - generic [ref=f21e325]:
+    - generic [ref=f21e326]:
+      - paragraph [ref=f21e327]: Parceiros & Clientes
+      - heading "O que dizem sobre mim" [level=2] [ref=f21e328]
+    - generic [ref=f21e329]:
+      - generic [ref=f21e330]:
+        - paragraph [ref=f21e342]: "\"Rinel tem capacidade rara de entender o negócio e traduzir isso em soluções técnicas de alto impacto. Entregou o ERP no prazo e superou expectativas.\""
+        - generic [ref=f21e343]:
+          - img "António Ferreira" [ref=f21e345]
+          - generic [ref=f21e346]:
+            - paragraph [ref=f21e347]: António Ferreira
+            - paragraph [ref=f21e348]: CEO, Grupo Apolo
+      - generic [ref=f21e349]:
+        - paragraph [ref=f21e361]: "\"Trabalhar com o Rinel foi transformador. Ele combina visão de produto com execução técnica de forma que poucos profissionais conseguem.\""
+        - generic [ref=f21e362]:
+          - img "Maria Silva" [ref=f21e364]
+          - generic [ref=f21e365]:
+            - paragraph [ref=f21e366]: Maria Silva
+            - paragraph [ref=f21e367]: CTO, TechAngola
+  - generic [ref=f21e368]:
+    - generic [ref=f21e369]:
+      - paragraph [ref=f21e370]: Próximo passo
+      - heading "Vamos construir algo extraordinário juntos?" [level=2] [ref=f21e371]
+      - paragraph [ref=f21e372]: Disponível para projetos freelance, consultorias e posições de liderança em produto e tecnologia.
+      - generic [ref=f21e373]:
+        - generic [ref=f21e374] [cursor=pointer]: Entrar em contato
+        - generic [ref=f21e375] [cursor=pointer]: Ver LinkedIn
+    - generic [ref=f21e376]:
+      - generic [ref=f21e382]:
+        - paragraph [ref=f21e383]: Email
+        - paragraph [ref=f21e384]: rinelbenjamim@gmail.com
+      - generic [ref=f21e390]:
+        - paragraph [ref=f21e391]: Localização
+        - paragraph [ref=f21e392]: Luanda, Angola
+  - contentinfo [ref=f21e393]:
+    - generic [ref=f21e394]:
+      - generic [ref=f21e395]: RB.
+      - generic [ref=f21e396]:
+        - generic [ref=f21e397] [cursor=pointer]
+        - generic [ref=f21e402] [cursor=pointer]
+        - generic [ref=f21e405] [cursor=pointer]
+    - paragraph [ref=f21e408]: © 2024 Rinel Benjamim. Todos os direitos reservados.
+  - generic [ref=f21e411]:
+    - button [ref=f21e412]
+    - button [ref=f21e418]
+    - button [ref=f21e422]
+    - button [ref=f21e427]

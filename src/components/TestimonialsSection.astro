@@ -1,7 +1,7 @@
 ---
 const testimonials = [
   {
-    quote: 'Rinel tem capacidade rara de entender o negócio e traduzir isso em soluções técnicas de alto impacto. Entregou o ERP no prazo e superou expectativas.',
+    quote: 'Rinel tem uma capacidade rara de entender o negócio e traduzir isso em soluções técnicas de alto impacto. Entregou o ERP no prazo e superou as expectativas.',
     name: 'António Ferreira',
     role: 'CEO, Grupo Apolo',
     avatar: '/images/avatar-1.png',
@@ -12,13 +12,19 @@ const testimonials = [
     role: 'CTO, TechAngola',
     avatar: '/images/avatar-2.png',
   },
+  {
+    quote: 'O Rinel entregou a plataforma com qualidade excepcional. Sua experiência em IA trouxe funcionalidades que diferenciaram completamente nosso produto.',
+    name: 'Carlos Mendes',
+    role: 'Founder, Yallah',
+    avatar: '/images/avatar-1.png',
+  },
 ];
 
-const starSvg = '<svg width="12" height="12" viewBox="0 0 24 24" fill="#f59e0b" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>';
+const starSvg = '<svg width="14" height="14" viewBox="0 0 24 24" fill="#f59e0b" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>';
 ---
 <section id="testimonials" class="w-full px-5 md:px-16 py-12 md:py-20 bg-background font-body">
   <div class="mb-8 md:mb-12" data-animate="fade-up">
-    <p class="text-xs font-semibold text-muted-foreground tracking-widest uppercase mb-2">Parceiros & Clientes</p>
+    <p class="text-xs font-semibold text-muted-foreground tracking-widest uppercase mb-3">Parceiros & Clientes</p>
     <h2 class="font-headings font-bold text-foreground" style="font-size: clamp(24px, 5vw, 40px); letter-spacing: -1.5px; line-height: 1.1;">
       O que dizem sobre mim
     </h2>
@@ -26,10 +32,10 @@ const starSvg = '<svg width="12" height="12" viewBox="0 0 24 24" fill="#f59e0b" 
   <div class="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6" data-stagger>
     {testimonials.map((t) => (
       <div class="bg-card border border-border rounded-lg p-5 md:p-7 flex flex-col gap-4 md:gap-6 hover:shadow-md transition-shadow duration-300">
-        <div class="flex gap-0.5 md:gap-1" set:html={Array(5).fill(starSvg).join('')} />
-        <p class="text-xs md:text-sm text-foreground leading-relaxed flex-1">"{t.quote}"</p>
+        <div class="flex gap-1" set:html={Array(5).fill(starSvg).join('')} />
+        <p class="text-sm text-foreground leading-relaxed flex-1">"{t.quote}"</p>
         <div class="flex items-center gap-3 pt-2 border-t border-border">
-          <div class="w-9 h-9 md:w-10 md:h-10 rounded-full border border-border overflow-hidden flex-shrink-0">
+          <div class="w-10 h-10 rounded-full border border-border overflow-hidden flex-shrink-0">
             <img src={t.avatar} alt={t.name} class="w-full h-full object-cover" />
           </div>
           <div>
