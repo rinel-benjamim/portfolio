@@ -2,27 +2,39 @@
 const projects = [
   {
     image: '/images/project-1.png',
-    tag: 'ERP',
-    year: '2023',
-    title: 'Apolo Enterprise ERP',
-    description: 'Sistema ERP completo com módulos financeiros, RH, logística e BI integrado.',
-    status: 'Entregue',
+    tag: 'SaaS',
+    year: '2026',
+    title: 'Brisa',
+    description: 'SaaS de faturação simples, poderoso e 100% adaptado às regulamentações da AGT. Desenvolvido pela Codespace.',
+    status: 'Em produção',
+    url: 'https://github.com/codespace-ao/brisa',
   },
   {
     image: '/images/project-2.png',
-    tag: 'SaaS',
-    year: '2024',
-    title: 'Portal do Freelancer "Yallah"',
-    description: 'Marketplace conectando freelancers e clientes no mercado africano com pagamentos integrados.',
+    tag: 'Startup',
+    year: '2025',
+    title: '100 Destinos',
+    description: 'Plataforma startup vencedora do Unitel Go Challenge, desenvolvida com Next.js e PostgreSQL.',
     status: 'Lançado',
+    url: 'https://github.com/100-Destinos',
   },
   {
     image: '/images/project-3.png',
-    tag: 'AI',
-    year: '2024',
-    title: 'Au-to AI Agent Orquestrador',
-    description: 'Orquestrador de agentes de IA para automação de processos empresariais com LLMs.',
-    status: 'Em produção',
+    tag: 'API',
+    year: '2025',
+    title: 'Tukula',
+    description: 'API completa desenvolvida em 3 dias para o CODEPOINT by Mirantes, com Laravel, Docker e PostgreSQL.',
+    status: 'Entregue',
+    url: 'https://github.com/codespace-ao/tukula',
+  },
+  {
+    image: '/images/project-1.png',
+    tag: 'Enterprise',
+    year: '2026',
+    title: 'Bizno',
+    description: 'API Java + backoffice + webapp para gestão empresarial, desenvolvido pela Codespace.',
+    status: 'Em desenvolvimento',
+    url: 'https://github.com/codespace-ao/bizno-api',
   },
 ];
 ---
@@ -34,15 +46,14 @@ const projects = [
         Projetos Recentes
       </h2>
     </div>
-    <a class="text-xs md:text-sm font-medium text-muted-foreground border border-border px-3 md:px-4 py-2 rounded-md flex items-center gap-2 hover:bg-muted transition-colors cursor-pointer">
+    <a href="https://github.com/rinel-benjamim" target="_blank" class="text-xs md:text-sm font-medium text-muted-foreground border border-border px-3 md:px-4 py-2 rounded-md flex items-center gap-2 hover:bg-muted transition-colors cursor-pointer">
       Ver todos
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
     </a>
   </div>
-  <div class="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6" data-stagger>
+  <div class="flex flex-col md:grid md:grid-cols-2 gap-5 md:gap-6" data-stagger>
     {projects.map((p) => (
-      <div class="bg-card border border-border rounded-lg overflow-hidden flex flex-col hover:shadow-md transition-shadow duration-300">
-        <!-- Mobile: image with overlay tags -->
+      <a href={p.url} target="_blank" class="bg-card border border-border rounded-lg overflow-hidden flex flex-col hover:shadow-md transition-shadow duration-300 cursor-pointer">
         <div class="relative h-40 md:h-[200px] overflow-hidden">
           <img src={p.image} alt={p.title} class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
           <div class="absolute top-3 left-3">
@@ -58,12 +69,12 @@ const projects = [
             <span class="text-xs text-muted-foreground whitespace-nowrap">{p.year}</span>
           </div>
           <p class="text-xs md:text-sm text-muted-foreground leading-relaxed">{p.description}</p>
-          <a class="flex items-center gap-1 text-xs font-medium text-foreground pt-1 cursor-pointer">
-            Ver projeto
+          <span class="flex items-center gap-1 text-xs font-medium text-foreground pt-1">
+            Ver no GitHub
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          </a>
+          </span>
         </div>
-      </div>
+      </a>
     ))}
   </div>
 </section>

@@ -1,25 +1,32 @@
 ---
 const articles = [
   {
-    title: 'Como construir ERPs escaláveis em 2024',
-    excerpt: 'Uma deep dive em arquitetura de sistemas ERP modernos, padrões de design e otimizações de performance que suportam centenas de clientes simultaneamente.',
-    date: '25 de Novembro, 2024',
-    readTime: '12 min',
-    category: 'Architecture',
+    title: 'De uma ideia a uma descoberta: o poder da Multi-Tenant Architecture',
+    date: '21 Ago, 2025',
+    readTime: '5 min',
+    category: 'Arquitetura',
+    url: 'https://pt.linkedin.com/posts/rinel-benjamim_tecnologiacomprop%C3%B3sito-codespace-gest%C3%A3odeprojetos-activity-7364275070195691521-WtJF',
   },
   {
-    title: 'O futuro do Product Management em tempos de IA',
-    excerpt: 'Reflexões sobre como agentes de IA estão transformando a forma como pensamos sobre desenvolvimento de produtos, roadmaps e ciclos de feedback.',
-    date: '18 de Novembro, 2024',
-    readTime: '8 min',
-    category: 'Product Strategy',
+    title: 'Codebase Laravel 12 pronta para produção – gratuita e open source!',
+    date: '13 Ago, 2025',
+    readTime: '4 min',
+    category: 'Open Source',
+    url: 'https://pt.linkedin.com/posts/rinel-benjamim_laravel-docker-postgresql-activity-7361301966611795968-eTC5',
   },
   {
-    title: 'Building High-Performance Teams: Lessons from 5 years leading engineers',
-    excerpt: 'O que aprendi liderando equipes técnicas através de diferentes fases de crescimento — culture, hiring, feedback loops e career development.',
-    date: '10 de Novembro, 2024',
-    readTime: '15 min',
-    category: 'Leadership',
+    title: 'Relacionamentos Polimórficos no Laravel com Eloquent ORM',
+    date: '05 Set, 2025',
+    readTime: '6 min',
+    category: 'Tutorial',
+    url: 'https://pt.linkedin.com/posts/rinel-benjamim_laravel-eloquentorm-php-activity-7369773007755599873-vAik',
+  },
+  {
+    title: 'A qualidade das mobile apps em Angola: uma reflexão necessária',
+    date: '21 Ago, 2025',
+    readTime: '5 min',
+    category: 'Mobile',
+    url: 'https://pt.linkedin.com/posts/rinel-benjamim_startupsangola-appsangolanas-tecnologiaangolana-activity-7364284705308868608-hIkJ',
   },
 ];
 ---
@@ -32,13 +39,12 @@ const articles = [
   </div>
   <div class="flex flex-col gap-5 max-w-4xl" data-stagger>
     {articles.map((art) => (
-      <a class="bg-card border border-border rounded-lg p-5 md:p-6 flex flex-col md:flex-row md:items-start gap-3 md:gap-6 group hover:shadow-md transition-shadow duration-300 cursor-pointer">
+      <a href={art.url} target="_blank" class="bg-card border border-border rounded-lg p-5 md:p-6 flex flex-col md:flex-row md:items-start gap-3 md:gap-6 group hover:shadow-md transition-shadow duration-300 cursor-pointer">
         <span class="text-xs font-semibold uppercase px-3 py-1.5 rounded-md bg-secondary text-secondary-foreground self-start flex-shrink-0 pt-1">
           {art.category}
         </span>
         <div class="flex flex-col gap-2 flex-1">
           <h3 class="font-headings font-bold text-sm md:text-lg text-foreground leading-tight">{art.title}</h3>
-          <p class="text-sm text-muted-foreground leading-relaxed hidden md:block">{art.excerpt}</p>
           <div class="flex items-center gap-4 pt-2 text-xs text-muted-foreground">
             <span>{art.date}</span>
             <span>&#8226;</span>

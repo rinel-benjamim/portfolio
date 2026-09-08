@@ -1,0 +1,362 @@
+- generic [active] [ref=f2e1]:
+  - navigation [ref=f2e2]:
+    - generic [ref=f2e3]: RB.
+    - button "Menu" [ref=f2e4]
+  - generic [ref=f2e9]:
+    - generic [ref=f2e10]: Disponível para novos projetos
+    - generic [ref=f2e13]:
+      - heading "Rinel Benjamim" [level=1] [ref=f2e15]: RinelBenjamim
+      - img "Rinel Benjamim" [ref=f2e17]
+    - generic [ref=f2e18]:
+      - generic [ref=f2e19]: Product Manager
+      - generic [ref=f2e20]: Software Engineer
+      - generic [ref=f2e21]: AI Specialist
+    - paragraph [ref=f2e22]: Construo tecnologia que resolve problemas reais. Especialista em desenvolvimento full-stack, aplicações móveis com React Native e APIs com Java — do código à estratégia de produto.
+    - generic [ref=f2e23]:
+      - link "Ver Projetos" [ref=f2e24] [cursor=pointer]:
+        - /url: "#projects"
+      - link "Baixar CV" [ref=f2e25] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=f2e26]:
+      - generic [ref=f2e27]:
+        - generic [ref=f2e28]: 4+
+        - generic [ref=f2e29]: Anos exp.
+      - generic [ref=f2e30]:
+        - generic [ref=f2e31]: 22+
+        - generic [ref=f2e32]: Projetos
+      - generic [ref=f2e33]:
+        - generic [ref=f2e34]: 100%
+        - generic [ref=f2e35]: Resultados
+  - generic [ref=f2e37]:
+    - generic [ref=f2e38]:
+      - generic [ref=f2e39]: ✦
+      - text: React
+    - generic [ref=f2e40]:
+      - generic [ref=f2e41]: ✦
+      - text: Laravel
+    - generic [ref=f2e42]:
+      - generic [ref=f2e43]: ✦
+      - text: Java
+    - generic [ref=f2e44]:
+      - generic [ref=f2e45]: ✦
+      - text: PostgreSQL
+    - generic [ref=f2e46]:
+      - generic [ref=f2e47]: ✦
+      - text: Next.js
+    - generic [ref=f2e48]:
+      - generic [ref=f2e49]: ✦
+      - text: TypeScript
+    - generic [ref=f2e50]:
+      - generic [ref=f2e51]: ✦
+      - text: Docker
+    - generic [ref=f2e52]:
+      - generic [ref=f2e53]: ✦
+      - text: React Native
+    - generic [ref=f2e54]:
+      - generic [ref=f2e55]: ✦
+      - text: Node.js
+    - generic [ref=f2e56]:
+      - generic [ref=f2e57]: ✦
+      - text: PHP
+    - generic [ref=f2e58]:
+      - generic [ref=f2e59]: ✦
+      - text: React
+    - generic [ref=f2e60]:
+      - generic [ref=f2e61]: ✦
+      - text: Laravel
+    - generic [ref=f2e62]:
+      - generic [ref=f2e63]: ✦
+      - text: Java
+    - generic [ref=f2e64]:
+      - generic [ref=f2e65]: ✦
+      - text: PostgreSQL
+    - generic [ref=f2e66]:
+      - generic [ref=f2e67]: ✦
+      - text: Next.js
+    - generic [ref=f2e68]:
+      - generic [ref=f2e69]: ✦
+      - text: TypeScript
+    - generic [ref=f2e70]:
+      - generic [ref=f2e71]: ✦
+      - text: Docker
+    - generic [ref=f2e72]:
+      - generic [ref=f2e73]: ✦
+      - text: React Native
+    - generic [ref=f2e74]:
+      - generic [ref=f2e75]: ✦
+      - text: Node.js
+    - generic [ref=f2e76]:
+      - generic [ref=f2e77]: ✦
+      - text: PHP
+  - generic [ref=f2e78]:
+    - generic [ref=f2e79]:
+      - paragraph [ref=f2e80]: O que faço
+      - heading "Capacidades de ponta a ponta" [level=2] [ref=f2e81]
+    - generic [ref=f2e82]:
+      - generic [ref=f2e88]:
+        - heading "Full-Stack Development" [level=3] [ref=f2e89]
+        - paragraph [ref=f2e90]: Desenvolvimento completo com React, Next.js, Laravel, Java e Node.js — do front-end ao back-end.
+      - generic [ref=f2e95]:
+        - heading "Mobile Development" [level=3] [ref=f2e96]
+        - paragraph [ref=f2e97]: Aplicações móveis com React Native e integração com APIs REST para soluções multiplataforma.
+      - generic [ref=f2e103]:
+        - heading "DevOps & Infraestrutura" [level=3] [ref=f2e104]
+        - paragraph [ref=f2e105]: Docker, GitHub Actions, administração de servidores Linux (VPS) e CI/CD.
+      - generic [ref=f2e110]:
+        - heading "Gestão de Projetos" [level=3] [ref=f2e111]
+        - paragraph [ref=f2e112]: Comunicação com stakeholders, mitigação de riscos e liderança de equipas de desenvolvimento.
+  - generic [ref=f2e113]:
+    - generic [ref=f2e114]:
+      - generic [ref=f2e115]:
+        - paragraph [ref=f2e116]: Portfólio
+        - heading "Projetos Recentes" [level=2] [ref=f2e117]
+      - link "Ver todos" [ref=f2e118] [cursor=pointer]:
+        - /url: https://github.com/rinel-benjamim
+    - generic [ref=f2e121]:
+      - link "Brisa SaaS Em produção Brisa 2026 SaaS de faturação simples, poderoso e 100% adaptado às regulamentações da AGT. Desenvolvido pela Codespace. Ver no GitHub" [ref=f2e122] [cursor=pointer]:
+        - /url: https://github.com/codespace-ao/brisa
+        - generic [ref=f2e123]:
+          - img "Brisa" [ref=f2e124]
+          - generic [ref=f2e125]: SaaS
+          - generic [ref=f2e126]: Em produção
+        - generic [ref=f2e127]:
+          - generic [ref=f2e128]:
+            - heading "Brisa" [level=3] [ref=f2e129]
+            - generic [ref=f2e130]: "2026"
+          - paragraph [ref=f2e131]: SaaS de faturação simples, poderoso e 100% adaptado às regulamentações da AGT. Desenvolvido pela Codespace.
+          - generic [ref=f2e132]: Ver no GitHub
+      - link "100 Destinos Startup Lançado 100 Destinos 2025 Plataforma startup vencedora do Unitel Go Challenge, desenvolvida com Next.js e PostgreSQL. Ver no GitHub" [ref=f2e135] [cursor=pointer]:
+        - /url: https://github.com/100-Destinos
+        - generic [ref=f2e136]:
+          - img "100 Destinos" [ref=f2e137]
+          - generic [ref=f2e138]: Startup
+          - generic [ref=f2e139]: Lançado
+        - generic [ref=f2e140]:
+          - generic [ref=f2e141]:
+            - heading "100 Destinos" [level=3] [ref=f2e142]
+            - generic [ref=f2e143]: "2025"
+          - paragraph [ref=f2e144]: Plataforma startup vencedora do Unitel Go Challenge, desenvolvida com Next.js e PostgreSQL.
+          - generic [ref=f2e145]: Ver no GitHub
+      - link "Tukula API Entregue Tukula 2025 API completa desenvolvida em 3 dias para o CODEPOINT by Mirantes, com Laravel, Docker e PostgreSQL. Ver no GitHub" [ref=f2e148] [cursor=pointer]:
+        - /url: https://github.com/codespace-ao/tukula
+        - generic [ref=f2e149]:
+          - img "Tukula" [ref=f2e150]
+          - generic [ref=f2e151]: API
+          - generic [ref=f2e152]: Entregue
+        - generic [ref=f2e153]:
+          - generic [ref=f2e154]:
+            - heading "Tukula" [level=3] [ref=f2e155]
+            - generic [ref=f2e156]: "2025"
+          - paragraph [ref=f2e157]: API completa desenvolvida em 3 dias para o CODEPOINT by Mirantes, com Laravel, Docker e PostgreSQL.
+          - generic [ref=f2e158]: Ver no GitHub
+      - link "Bizno Enterprise Em desenvolvimento Bizno 2026 API Java + backoffice + webapp para gestão empresarial, desenvolvido pela Codespace. Ver no GitHub" [ref=f2e161] [cursor=pointer]:
+        - /url: https://github.com/codespace-ao/bizno-api
+        - generic [ref=f2e162]:
+          - img "Bizno" [ref=f2e163]
+          - generic [ref=f2e164]: Enterprise
+          - generic [ref=f2e165]: Em desenvolvimento
+        - generic [ref=f2e166]:
+          - generic [ref=f2e167]:
+            - heading "Bizno" [level=3] [ref=f2e168]
+            - generic [ref=f2e169]: "2026"
+          - paragraph [ref=f2e170]: API Java + backoffice + webapp para gestão empresarial, desenvolvido pela Codespace.
+          - generic [ref=f2e171]: Ver no GitHub
+  - generic [ref=f2e174]:
+    - generic [ref=f2e175]:
+      - paragraph [ref=f2e176]: Expertise
+      - heading "Skills & Tecnologias" [level=2] [ref=f2e177]
+    - generic [ref=f2e178]:
+      - generic [ref=f2e179]:
+        - heading "Frontend & Mobile" [level=3] [ref=f2e180]
+        - generic [ref=f2e181]:
+          - generic [ref=f2e182]: React
+          - generic [ref=f2e183]: Next.js
+          - generic [ref=f2e184]: Vue.js
+          - generic [ref=f2e185]: React Native
+          - generic [ref=f2e186]: AstroJS
+          - generic [ref=f2e187]: TypeScript
+          - generic [ref=f2e188]: Tailwind CSS
+          - generic [ref=f2e189]: Bootstrap
+          - generic [ref=f2e190]: Livewire
+          - generic [ref=f2e191]: Blade
+      - generic [ref=f2e192]:
+        - heading "Backend" [level=3] [ref=f2e193]
+        - generic [ref=f2e194]:
+          - generic [ref=f2e195]: PHP/Laravel
+          - generic [ref=f2e196]: Java
+          - generic [ref=f2e197]: Node.js
+          - generic [ref=f2e198]: C#
+          - generic [ref=f2e199]: REST APIs
+      - generic [ref=f2e200]:
+        - heading "Banco de Dados" [level=3] [ref=f2e201]
+        - generic [ref=f2e202]:
+          - generic [ref=f2e203]: PostgreSQL
+          - generic [ref=f2e204]: MySQL
+          - generic [ref=f2e205]: SQLite
+          - generic [ref=f2e206]: SQL Server
+          - generic [ref=f2e207]: Redis
+      - generic [ref=f2e208]:
+        - heading "DevOps & IA" [level=3] [ref=f2e209]
+        - generic [ref=f2e210]:
+          - generic [ref=f2e211]: Docker
+          - generic [ref=f2e212]: GitHub Actions
+          - generic [ref=f2e213]: Linux (VPS)
+          - generic [ref=f2e214]: OpenCode
+          - generic [ref=f2e215]: Claude Code
+          - generic [ref=f2e216]: GitHub Copilot
+  - generic [ref=f2e217]:
+    - generic [ref=f2e218]:
+      - paragraph [ref=f2e219]: Trajetória
+      - heading "Experiência Profissional" [level=2] [ref=f2e220]
+    - generic [ref=f2e221]:
+      - generic [ref=f2e226]:
+        - generic [ref=f2e227]:
+          - generic [ref=f2e228]:
+            - heading "Desenvolvedor Full-stack" [level=3] [ref=f2e229]
+            - paragraph [ref=f2e230]: Freelancer
+          - generic [ref=f2e231]: Mar 2026 – Atual
+        - paragraph [ref=f2e232]: Desenvolvo aplicações móveis com React Native e APIs com Java. Realizo projetos full-stack de ponta a ponta, integrando front-end, back-end e bases de dados em diferentes tecnologias. Utilizo desenvolvimento assistido por IA com ferramentas como OpenCode, Claude Code e GitHub Copilot.
+        - generic [ref=f2e233]:
+          - generic [ref=f2e234]: React Native
+          - generic [ref=f2e235]: Java
+          - generic [ref=f2e236]: IA Assistida
+          - generic [ref=f2e237]: Full-Stack
+      - generic [ref=f2e242]:
+        - generic [ref=f2e243]:
+          - generic [ref=f2e244]:
+            - heading "Desenvolvedor Full-stack" [level=3] [ref=f2e245]
+            - paragraph [ref=f2e246]: 100 Destinos
+          - generic [ref=f2e247]: Set 2025 – Mar 2026
+        - paragraph [ref=f2e248]: Desenvolvi e mantive a plataforma 100 Destinos, startup vencedora do Unitel Go Challenge, utilizando Next.js e PostgreSQL. Realizei a identificação e correção regular de bugs na plataforma.
+        - generic [ref=f2e249]:
+          - generic [ref=f2e250]: Next.js
+          - generic [ref=f2e251]: PostgreSQL
+          - generic [ref=f2e252]: Startup
+          - generic [ref=f2e253]: Bug Fixing
+      - generic [ref=f2e258]:
+        - generic [ref=f2e259]:
+          - generic [ref=f2e260]:
+            - heading "Gestor de Projetos / Full-stack" [level=3] [ref=f2e261]
+            - paragraph [ref=f2e262]: Njila
+          - generic [ref=f2e263]: Mai 2025 – Ago 2025
+        - paragraph [ref=f2e264]: Geri a comunicação com stakeholders e alinhei expectativas ao longo dos projetos. Mantive e evoluí a plataforma com novas funcionalidades no back-end em Laravel e C#, e implementei interfaces com React, Vue.js e React Native.
+        - generic [ref=f2e265]:
+          - generic [ref=f2e266]: Laravel
+          - generic [ref=f2e267]: C#
+          - generic [ref=f2e268]: React
+          - generic [ref=f2e269]: Gestão de Projetos
+      - generic [ref=f2e273]:
+        - generic [ref=f2e274]:
+          - generic [ref=f2e275]:
+            - heading "Desenvolvedor Backend" [level=3] [ref=f2e276]
+            - paragraph [ref=f2e277]: Ovonne
+          - generic [ref=f2e278]: Jan 2025 – Mar 2025
+        - paragraph [ref=f2e279]: Desenvolvi APIs REST e implementei soluções de back-end voltadas às necessidades do negócio. Resolvi problemas técnicos de forma proativa e apoiei a continuidade do ambiente de desenvolvimento.
+        - generic [ref=f2e280]:
+          - generic [ref=f2e281]: REST APIs
+          - generic [ref=f2e282]: Git
+          - generic [ref=f2e283]: Backend
+  - generic [ref=f2e284]:
+    - generic [ref=f2e285]:
+      - paragraph [ref=f2e286]: Pensamentos
+      - heading "Artigos & Insights" [level=2] [ref=f2e287]
+    - generic [ref=f2e288]:
+      - 'link "Arquitetura De uma ideia a uma descoberta: o poder da Multi-Tenant Architecture 21 Ago, 2025 • 5 min leitura" [ref=f2e289] [cursor=pointer]':
+        - /url: https://pt.linkedin.com/posts/rinel-benjamim_tecnologiacomprop%C3%B3sito-codespace-gest%C3%A3odeprojetos-activity-7364275070195691521-WtJF
+        - generic [ref=f2e290]: Arquitetura
+        - generic [ref=f2e291]:
+          - 'heading "De uma ideia a uma descoberta: o poder da Multi-Tenant Architecture" [level=3] [ref=f2e292]'
+          - generic [ref=f2e293]:
+            - generic [ref=f2e294]: 21 Ago, 2025
+            - generic [ref=f2e295]: •
+            - generic [ref=f2e296]: 5 min leitura
+      - link "Open Source Codebase Laravel 12 pronta para produção – gratuita e open source! 13 Ago, 2025 • 4 min leitura" [ref=f2e297] [cursor=pointer]:
+        - /url: https://pt.linkedin.com/posts/rinel-benjamim_laravel-docker-postgresql-activity-7361301966611795968-eTC5
+        - generic [ref=f2e298]: Open Source
+        - generic [ref=f2e299]:
+          - heading "Codebase Laravel 12 pronta para produção – gratuita e open source!" [level=3] [ref=f2e300]
+          - generic [ref=f2e301]:
+            - generic [ref=f2e302]: 13 Ago, 2025
+            - generic [ref=f2e303]: •
+            - generic [ref=f2e304]: 4 min leitura
+      - link "Tutorial Relacionamentos Polimórficos no Laravel com Eloquent ORM 05 Set, 2025 • 6 min leitura" [ref=f2e305] [cursor=pointer]:
+        - /url: https://pt.linkedin.com/posts/rinel-benjamim_laravel-eloquentorm-php-activity-7369773007755599873-vAik
+        - generic [ref=f2e306]: Tutorial
+        - generic [ref=f2e307]:
+          - heading "Relacionamentos Polimórficos no Laravel com Eloquent ORM" [level=3] [ref=f2e308]
+          - generic [ref=f2e309]:
+            - generic [ref=f2e310]: 05 Set, 2025
+            - generic [ref=f2e311]: •
+            - generic [ref=f2e312]: 6 min leitura
+      - 'link "Mobile A qualidade das mobile apps em Angola: uma reflexão necessária 21 Ago, 2025 • 5 min leitura" [ref=f2e313] [cursor=pointer]':
+        - /url: https://pt.linkedin.com/posts/rinel-benjamim_startupsangola-appsangolanas-tecnologiaangolana-activity-7364284705308868608-hIkJ
+        - generic [ref=f2e314]: Mobile
+        - generic [ref=f2e315]:
+          - 'heading "A qualidade das mobile apps em Angola: uma reflexão necessária" [level=3] [ref=f2e316]'
+          - generic [ref=f2e317]:
+            - generic [ref=f2e318]: 21 Ago, 2025
+            - generic [ref=f2e319]: •
+            - generic [ref=f2e320]: 5 min leitura
+  - generic [ref=f2e321]:
+    - generic [ref=f2e322]:
+      - paragraph [ref=f2e323]: Parceiros & Clientes
+      - heading "O que dizem sobre mim" [level=2] [ref=f2e324]
+    - generic [ref=f2e325]:
+      - generic [ref=f2e326]:
+        - paragraph [ref=f2e338]: "\"Rinel tem uma capacidade rara de entender o negócio e traduzir isso em soluções técnicas de alto impacto. Entregou o ERP no prazo e superou as expectativas.\""
+        - generic [ref=f2e339]:
+          - img "António Ferreira" [ref=f2e341]
+          - generic [ref=f2e342]:
+            - paragraph [ref=f2e343]: António Ferreira
+            - paragraph [ref=f2e344]: CEO, Grupo Apolo
+      - generic [ref=f2e345]:
+        - paragraph [ref=f2e357]: "\"Trabalhar com o Rinel foi transformador. Ele combina visão de produto com execução técnica de forma que poucos profissionais conseguem.\""
+        - generic [ref=f2e358]:
+          - img "Maria Silva" [ref=f2e360]
+          - generic [ref=f2e361]:
+            - paragraph [ref=f2e362]: Maria Silva
+            - paragraph [ref=f2e363]: CTO, TechAngola
+      - generic [ref=f2e364]:
+        - paragraph [ref=f2e376]: "\"O Rinel entregou a plataforma com qualidade excepcional. Sua experiência em IA trouxe funcionalidades que diferenciaram completamente nosso produto.\""
+        - generic [ref=f2e377]:
+          - img "Carlos Mendes" [ref=f2e379]
+          - generic [ref=f2e380]:
+            - paragraph [ref=f2e381]: Carlos Mendes
+            - paragraph [ref=f2e382]: Founder, Yallah
+  - generic [ref=f2e384]:
+    - generic [ref=f2e385]:
+      - paragraph [ref=f2e386]: Próximo passo
+      - heading "Vamos construir algo extraordinário juntos?" [level=2] [ref=f2e387]
+      - paragraph [ref=f2e388]: Estou disponível para projetos freelance, consultorias e posições de liderança em produto e tecnologia.
+      - generic [ref=f2e389]:
+        - link "Entrar em contato" [ref=f2e390] [cursor=pointer]:
+          - /url: mailto:rinel.work@gmail.com
+        - link "Ver LinkedIn" [ref=f2e391] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/rinel-benjamim
+    - generic [ref=f2e392]:
+      - generic [ref=f2e398]:
+        - paragraph [ref=f2e399]: Email
+        - paragraph [ref=f2e400]: rinel.work@gmail.com
+      - generic [ref=f2e405]:
+        - paragraph [ref=f2e406]: WhatsApp
+        - paragraph [ref=f2e407]: +244 933 996 554
+      - generic [ref=f2e413]:
+        - paragraph [ref=f2e414]: Localização
+        - paragraph [ref=f2e415]: Luanda, Angola
+  - contentinfo [ref=f2e416]:
+    - generic [ref=f2e417]:
+      - generic [ref=f2e418]:
+        - generic [ref=f2e419]: RB.
+        - generic [ref=f2e420]:
+          - link [ref=f2e421] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/rinel-benjamim
+          - link [ref=f2e426] [cursor=pointer]:
+            - /url: https://github.com/rinel-benjamim
+          - link [ref=f2e429] [cursor=pointer]:
+            - /url: https://www.facebook.com/rinelvissuma.benjamim/
+      - paragraph [ref=f2e432]: © 2026 Rinel Benjamim. Todos os direitos reservados.
+  - generic [ref=f2e435]:
+    - button [ref=f2e436]
+    - button [ref=f2e442]
+    - button [ref=f2e446]
+    - button [ref=f2e451]
